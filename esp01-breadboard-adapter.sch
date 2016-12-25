@@ -140,4 +140,31 @@ Text GLabel 5100 4050 0    60   BiDi ~ 0
 GPIO2
 Text GLabel 5100 4150 0    60   Input ~ 0
 GND
+$Comp
+L C C1
+U 1 1 585F8F92
+P 7200 3650
+F 0 "C1" H 7225 3750 50  0000 L CNN
+F 1 "C" H 7225 3550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 7238 3500 50  0001 C CNN
+F 3 "" H 7200 3650 50  0000 C CNN
+	1    7200 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 3500 7200 3350
+Wire Wire Line
+	7200 3800 7200 3950
+Text GLabel 7200 3350 1    60   Input ~ 0
+VCC
+Text GLabel 7200 3950 3    60   Input ~ 0
+GND
+Text Notes 7350 7500 0    60   ~ 0
+ESP8266-01 adapter for breadboard
+Text Notes 8150 7650 0    60   ~ 0
+December 25, 2016\n
+Text Notes 10550 7650 0    60   ~ 0
+1.0\n
+Text Notes 7450 7250 0    60   ~ 0
+Francesco Urbani\n
 $EndSCHEMATC
