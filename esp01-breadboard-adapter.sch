@@ -87,60 +87,6 @@ GPIO2
 Text GLabel 5300 3450 0    60   Input ~ 0
 GND
 $Comp
-L CONN_01X04 P3
-U 1 1 585E6908
-P 5900 4000
-F 0 "P3" H 5900 4250 50  0000 C CNN
-F 1 "CONN_01X04" V 6000 4000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 5900 4000 50  0001 C CNN
-F 3 "" H 5900 4000 50  0000 C CNN
-	1    5900 4000
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_01X04 P2
-U 1 1 585E69F1
-P 5400 4000
-F 0 "P2" H 5400 4250 50  0000 C CNN
-F 1 "CONN_01X04" V 5500 4000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 5400 4000 50  0001 C CNN
-F 3 "" H 5400 4000 50  0000 C CNN
-	1    5400 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6100 3850 6200 3850
-Wire Wire Line
-	6100 3950 6200 3950
-Wire Wire Line
-	6100 4050 6200 4050
-Wire Wire Line
-	6100 4150 6200 4150
-Text GLabel 6200 3850 2    60   Input ~ 0
-VCC
-Text GLabel 6200 3950 2    60   Input ~ 0
-RESET
-Text GLabel 6200 4050 2    60   Input ~ 0
-CH_PD
-Text GLabel 6200 4150 2    60   Output ~ 0
-TXD
-Wire Wire Line
-	5200 4150 5100 4150
-Wire Wire Line
-	5200 4050 5100 4050
-Wire Wire Line
-	5200 3950 5100 3950
-Wire Wire Line
-	5200 3850 5100 3850
-Text GLabel 5100 3850 0    60   Input ~ 0
-RXD
-Text GLabel 5100 3950 0    60   BiDi ~ 0
-GPIO0
-Text GLabel 5100 4050 0    60   BiDi ~ 0
-GPIO2
-Text GLabel 5100 4150 0    60   Input ~ 0
-GND
-$Comp
 L C C1
 U 1 1 585F8F92
 P 7200 3650
@@ -167,4 +113,58 @@ Text Notes 10550 7650 0    60   ~ 0
 1.0\n
 Text Notes 7450 7250 0    60   ~ 0
 Francesco Urbani\n
+$Comp
+L CONN_01X04 P3
+U 1 1 585F9D0E
+P 5950 4150
+F 0 "P3" H 5950 4400 50  0000 C CNN
+F 1 "CONN_01X04" V 6050 4150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 5950 4150 50  0001 C CNN
+F 3 "" H 5950 4150 50  0000 C CNN
+	1    5950 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X04 P2
+U 1 1 585F9D14
+P 5450 4150
+F 0 "P2" H 5450 4400 50  0000 C CNN
+F 1 "CONN_01X04" V 5550 4150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 5450 4150 50  0001 C CNN
+F 3 "" H 5450 4150 50  0000 C CNN
+	1    5450 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 4000 6250 4000
+Wire Wire Line
+	6150 4100 6250 4100
+Wire Wire Line
+	6150 4200 6250 4200
+Wire Wire Line
+	6150 4300 6250 4300
+Text GLabel 6250 4000 2    60   BiDi ~ 0
+GPIO2
+Text GLabel 6250 4100 2    60   Input ~ 0
+CH_PD
+Text GLabel 6250 4200 2    60   Input ~ 0
+GND
+Text GLabel 6250 4300 2    60   Output ~ 0
+TXD
+Wire Wire Line
+	5250 4300 5150 4300
+Wire Wire Line
+	5250 4200 5150 4200
+Wire Wire Line
+	5250 4100 5150 4100
+Wire Wire Line
+	5250 4000 5150 4000
+Text GLabel 5150 4000 0    60   BiDi ~ 0
+GPIO0
+Text GLabel 5150 4100 0    60   Input ~ 0
+RESET
+Text GLabel 5150 4200 0    60   Input ~ 0
+RXD
+Text GLabel 5150 4300 0    60   Input ~ 0
+VCC
 $EndSCHEMATC
