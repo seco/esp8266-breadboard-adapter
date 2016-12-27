@@ -114,57 +114,52 @@ Text Notes 10550 7650 0    60   ~ 0
 Text Notes 7450 7250 0    60   ~ 0
 Francesco Urbani\n
 $Comp
-L CONN_01X04 P3
-U 1 1 585F9D0E
-P 5950 4150
-F 0 "P3" H 5950 4400 50  0000 C CNN
-F 1 "CONN_01X04" V 6050 4150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 5950 4150 50  0001 C CNN
-F 3 "" H 5950 4150 50  0000 C CNN
-	1    5950 4150
-	-1   0    0    1   
+L CONN_01X10 P2
+U 1 1 5862AFF5
+P 5700 4150
+F 0 "P2" H 5700 4700 50  0000 C CNN
+F 1 "CONN_01X10" V 5800 4150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x10" H 5700 4150 50  0001 C CNN
+F 3 "" H 5700 4150 50  0000 C CNN
+	1    5700 4150
+	0    -1   -1   0   
 $EndComp
-$Comp
-L CONN_01X04 P2
-U 1 1 585F9D14
-P 5450 4150
-F 0 "P2" H 5450 4400 50  0000 C CNN
-F 1 "CONN_01X04" V 5550 4150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 5450 4150 50  0001 C CNN
-F 3 "" H 5450 4150 50  0000 C CNN
-	1    5450 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6150 4000 6250 4000
-Wire Wire Line
-	6150 4100 6250 4100
-Wire Wire Line
-	6150 4200 6250 4200
-Wire Wire Line
-	6150 4300 6250 4300
-Text GLabel 6250 4000 2    60   BiDi ~ 0
-GPIO2
-Text GLabel 6250 4100 2    60   Input ~ 0
-CH_PD
-Text GLabel 6250 4200 2    60   Input ~ 0
-GND
-Text GLabel 6250 4300 2    60   Output ~ 0
+Text GLabel 5350 4550 3    60   Output ~ 0
 TXD
-Wire Wire Line
-	5250 4300 5150 4300
-Wire Wire Line
-	5250 4200 5150 4200
-Wire Wire Line
-	5250 4100 5150 4100
-Wire Wire Line
-	5250 4000 5150 4000
-Text GLabel 5150 4000 0    60   BiDi ~ 0
-GPIO0
-Text GLabel 5150 4100 0    60   Input ~ 0
-RESET
-Text GLabel 5150 4200 0    60   Input ~ 0
+Text GLabel 5450 4550 3    60   Input ~ 0
 RXD
-Text GLabel 5150 4300 0    60   Input ~ 0
+Text GLabel 5550 4550 3    60   Input ~ 0
 VCC
+Text GLabel 5750 4550 3    60   Input ~ 0
+GND
+Text GLabel 5850 4550 3    60   Input ~ 0
+CH_PD
+Text GLabel 5950 4550 3    60   Input ~ 0
+RESET
+Text GLabel 6050 4550 3    60   BiDi ~ 0
+GPIO0
+Text GLabel 6150 4550 3    60   BiDi ~ 0
+GPIO2
+Wire Wire Line
+	5350 4350 5350 4550
+Wire Wire Line
+	5450 4550 5450 4350
+Wire Wire Line
+	5550 4350 5550 4550
+Wire Wire Line
+	5750 4550 5750 4350
+Wire Wire Line
+	5850 4350 5850 4550
+Wire Wire Line
+	5950 4550 5950 4350
+Wire Wire Line
+	6050 4350 6050 4550
+Wire Wire Line
+	6150 4550 6150 4350
+Wire Wire Line
+	5650 4350 5650 4550
+Wire Wire Line
+	5250 4550 5250 4350
+NoConn ~ 5650 4550
+NoConn ~ 5250 4550
 $EndSCHEMATC
