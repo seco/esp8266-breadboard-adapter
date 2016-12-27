@@ -3,7 +3,7 @@
   (general
     (links 10)
     (no_connects 0)
-    (area 129.464999 105.207999 144.855001 122.757001)
+    (area 125.113 101.491 149.819 127.086)
     (thickness 1.6)
     (drawings 18)
     (tracks 78)
@@ -14,8 +14,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
-    (31 B.Cu signal hide)
+    (0 F.Cu signal)
+    (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -85,7 +85,7 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
       (outputdirectory ""))
   )
