@@ -132,13 +132,13 @@ Text GLabel 5550 4550 3    60   Input ~ 0
 VCC
 Text GLabel 5750 4550 3    60   Input ~ 0
 GND
-Text GLabel 5950 4550 3    60   Input ~ 0
+Text GLabel 6150 4550 3    60   Input ~ 0
 CH_PD
 Text GLabel 5850 4550 3    60   Input ~ 0
 RESET
-Text GLabel 6050 4550 3    60   BiDi ~ 0
+Text GLabel 5950 4550 3    60   BiDi ~ 0
 GPIO0
-Text GLabel 6150 4550 3    60   BiDi ~ 0
+Text GLabel 6050 4550 3    60   BiDi ~ 0
 GPIO2
 Wire Wire Line
 	5350 4350 5350 4550
