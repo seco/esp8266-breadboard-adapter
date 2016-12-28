@@ -119,7 +119,7 @@ U 1 1 5862AFF5
 P 5700 4150
 F 0 "P2" H 5700 4700 50  0000 C CNN
 F 1 "CONN_01X10" V 5800 4150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x10" H 5700 4150 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 5700 4150 50  0001 C CNN
 F 3 "" H 5700 4150 50  0000 C CNN
 	1    5700 4150
 	0    -1   -1   0   
@@ -132,9 +132,9 @@ Text GLabel 5550 4550 3    60   Input ~ 0
 VCC
 Text GLabel 5750 4550 3    60   Input ~ 0
 GND
-Text GLabel 5850 4550 3    60   Input ~ 0
-CH_PD
 Text GLabel 5950 4550 3    60   Input ~ 0
+CH_PD
+Text GLabel 5850 4550 3    60   Input ~ 0
 RESET
 Text GLabel 6050 4550 3    60   BiDi ~ 0
 GPIO0
