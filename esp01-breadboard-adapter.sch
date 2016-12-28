@@ -46,64 +46,64 @@ $EndDescr
 $Comp
 L CONN_02X04 P1
 U 1 1 585E6580
-P 5650 3300
-F 0 "P1" H 5650 3550 50  0000 C CNN
-F 1 "CONN_02X04" H 5650 3050 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x04" H 5650 2100 50  0001 C CNN
-F 3 "" H 5650 2100 50  0000 C CNN
-	1    5650 3300
+P 5950 3300
+F 0 "P1" H 5950 3550 50  0000 C CNN
+F 1 "CONN_02X04" H 5950 3050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x04" H 5950 2100 50  0001 C CNN
+F 3 "" H 5950 2100 50  0000 C CNN
+	1    5950 3300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5900 3150 6000 3150
+	6200 3150 6300 3150
 Wire Wire Line
-	5900 3250 6000 3250
+	6200 3250 6300 3250
 Wire Wire Line
-	5900 3350 6000 3350
+	6200 3350 6300 3350
 Wire Wire Line
-	5900 3450 6000 3450
+	6200 3450 6300 3450
 Wire Wire Line
-	5400 3450 5300 3450
+	5700 3450 5600 3450
 Wire Wire Line
-	5400 3350 5300 3350
+	5700 3350 5600 3350
 Wire Wire Line
-	5400 3250 5300 3250
+	5700 3250 5600 3250
 Wire Wire Line
-	5400 3150 5300 3150
-Text GLabel 6000 3150 2    60   Input ~ 0
+	5700 3150 5600 3150
+Text GLabel 6300 3150 2    60   Input ~ 0
 VCC
-Text GLabel 6000 3250 2    60   Input ~ 0
+Text GLabel 6300 3250 2    60   Input ~ 0
 RESET
-Text GLabel 6000 3350 2    60   Input ~ 0
+Text GLabel 6300 3350 2    60   Input ~ 0
 CH_PD
-Text GLabel 6000 3450 2    60   Output ~ 0
+Text GLabel 6300 3450 2    60   Output ~ 0
 TXD
-Text GLabel 5300 3150 0    60   Input ~ 0
+Text GLabel 5600 3150 0    60   Input ~ 0
 RXD
-Text GLabel 5300 3250 0    60   BiDi ~ 0
+Text GLabel 5600 3250 0    60   BiDi ~ 0
 GPIO0
-Text GLabel 5300 3350 0    60   BiDi ~ 0
+Text GLabel 5600 3350 0    60   BiDi ~ 0
 GPIO2
-Text GLabel 5300 3450 0    60   Input ~ 0
+Text GLabel 5600 3450 0    60   Input ~ 0
 GND
 $Comp
 L C C1
 U 1 1 585F8F92
-P 7200 3650
-F 0 "C1" H 7225 3750 50  0000 L CNN
-F 1 "100u" H 7225 3550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206" H 7238 3500 50  0001 C CNN
-F 3 "" H 7200 3650 50  0000 C CNN
-	1    7200 3650
+P 7250 3950
+F 0 "C1" H 7275 4050 50  0000 L CNN
+F 1 "100u" H 7275 3850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 7288 3800 50  0001 C CNN
+F 3 "" H 7250 3950 50  0000 C CNN
+	1    7250 3950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7200 3500 7200 3350
+	7250 3800 7250 3650
 Wire Wire Line
-	7200 3800 7200 3950
-Text GLabel 7200 3350 1    60   Input ~ 0
+	7250 4100 7250 4250
+Text GLabel 7250 3650 1    60   Input ~ 0
 VCC
-Text GLabel 7200 3950 3    60   Input ~ 0
+Text GLabel 7250 4250 3    60   Input ~ 0
 GND
 Text Notes 7350 7500 0    60   ~ 0
 ESP8266-01 adapter for breadboard
