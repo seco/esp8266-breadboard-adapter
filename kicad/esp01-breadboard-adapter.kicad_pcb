@@ -3,7 +3,7 @@
   (general
     (links 10)
     (no_connects 0)
-    (area 77.516667 108.88 107.581401 126.17)
+    (area 77.546667 108.91 107.551401 126.14)
     (thickness 1.6)
     (drawings 15)
     (tracks 37)
@@ -15,7 +15,7 @@
   (page A4)
   (layers
     (0 F.Cu signal)
-    (31 B.Cu signal)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -31,9 +31,9 @@
     (44 Edge.Cuts user)
     (45 Margin user)
     (46 B.CrtYd user)
-    (47 F.CrtYd user)
+    (47 F.CrtYd user hide)
     (48 B.Fab user)
-    (49 F.Fab user)
+    (49 F.Fab user hide)
   )
 
   (setup
